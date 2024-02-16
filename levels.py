@@ -279,13 +279,6 @@ level1.add_enemy(30, ENEMY_TYPE_PARASITE, (GAME_WIDTH//2 + 105, 200))
 level1.add_enemy(35, ENEMY_TYPE_FLOODER_DOWN, (GAME_WIDTH//2 + 40, 50))
 level1.add_enemy(35, ENEMY_TYPE_FLOODER_DOWN, (GAME_WIDTH//2 - 40, 50))
 
-""" #level1.add_enemy(4, ENEMY_TYPE_FLOODER_U, True)
-level1.add_enemy(4, ENEMY_TYPE_GEAR, (GAME_WIDTH//2 - 100, 100))
-#level1.add_enemy(4, ENEMY_TYPE_BEAST, (GAME_WIDTH//2 - 100, 150))
-#level1.add_enemy(5, ENEMY_TYPE_FLOODER_U, False)
-level1.add_enemy(5, ENEMY_TYPE_PARASITE, (GAME_WIDTH//2 - 80, 50), -1)
-level1.add_enemy(10, ENEMY_TYPE_FLOODER_DOWN, (GAME_WIDTH//2 + 80, 90)) """
-
 level2 = Level(2, "LEVEL 2", "Tensions are rising")
 
 level2.add_enemy(3, ENEMY_TYPE_PARASITE, (GAME_WIDTH//2 - 30, 100), -1)
